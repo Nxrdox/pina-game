@@ -1,0 +1,25 @@
+{
+  "name": "pina-game",
+  "private": true,
+  "version": "1.0.0",
+  "author": "Ronmo",
+  "description": "Meu Jogo Pina",
+  "main": "main.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "electron": "electron ."
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.3.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tailwindcss": "^4.3.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.0",
+    "electron": "^42.0.1",
+    "vite": "^5.2.0"
+  }
+}
